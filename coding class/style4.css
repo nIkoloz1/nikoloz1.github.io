@@ -1,0 +1,41 @@
+h1{
+font-size: 60px;
+background:#F2F2F2;
+color:gray;
+}
+
+ #map {
+        height: 400px;
+        width: 100%;
+		padding: 90px 0px;
+		margin:0px;
+}
+
+.text {
+text-align:center;
+
+padding: 0px 0px;
+color: gray;
+margin-top:10px;
+}
+
+.text h2{
+margin-top:10px;
+padding-top:20px;
+}
+
+body{
+padding: 0px 0px;
+margin:0px;
+
+}
+
+*{
+font-family:Helvetica;
+text-align:center;
+}
+
+.socialpic img {
+height:50px;
+padding-top:10px;
+}

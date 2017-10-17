@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel="Stylesheet" href="style4.css" type="text/css" >
+    </head>
+  <body>
+	<h1 style="text-align: center;">Contact Us </h1>
+   
+    <div id="map">
+    <script>
+      function initMap() {
+        var uluru = {lat: 55.7054222, lng: 21.1535372};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+	<div class="map">
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkeE9YgxV2sLtz6xTqzIL6i38sGjs3xkU&callback=initMap">
+    </script>
+	</div>
+	</div>
+	<div class="text">
+		<h2>LCC International University <br> kretingos g.36 </br> phone: +995 599 54 03 21<br>E-mail: nikolozg1997@gmail.com </br></h2>
+	</div>
+	<div class="socialpic">
+	<img src="social.png" alt="social">
+	</div>
+	
+  </body>
+</html>

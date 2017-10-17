@@ -1,0 +1,30 @@
+*{font-family: Helvetica;
+}
+body 
+{
+    background-color:White;
+}
+*{text-align: center}
+h1{
+	font-size:90px;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+
+h2{
+	font-size:40px;
+	
+}
+.when h2 {
+	width: 700px;
+	align:center;}
+img {
+	width:500px;
+}
+.home img {
+width:3%;
+height:3%
+}
+.home {
+align:left;
+}

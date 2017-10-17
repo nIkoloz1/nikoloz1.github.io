@@ -1,0 +1,39 @@
+* {
+text-align:center;
+font-family:Helvetica;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  
+}
+#listone{
+font-size:60px;
+color:black;
+font-weight:50px;
+}
+
+.list2 li {
+display:inline;
+max-width:400px;
+padding:0px 50px;
+font-size:30px;
+white-space: nowrap;
+
+}
+.list2 {
+background-color:#F2F2F2;
+}
+
+.bottom{
+padding-top:50px;
+align:center;
+}
+.bottom img {
+width:5%;
+height:5%
+}
+
+.firstim img{
+height:500px;
+}
